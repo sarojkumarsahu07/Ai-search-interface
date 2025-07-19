@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://static.vecteezy.com/system/resources/previews/023/488/153/non_2x/artificial-intelligence-and-metaverse-background-banner-showing-ai-technology-generative-ai-photo.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+header {
+  position: relative;
+  z-index: 2;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+
+.sign-in-btn {
+  background: #c10dac57;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  top: 30%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.google-search-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google-search-bar input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  flex: 1;
+}
+
+.google-search-bar button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+  padding-left: 10px;
+}
